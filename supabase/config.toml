@@ -1,0 +1,7 @@
+[functions.extract-medical-data]
+verify_jwt = false
+entrypoint = "./functions/extract-medical-data/index.ts"
+
+[functions.generate-health-summary]
+verify_jwt = false
+entrypoint = "./functions/generate-health-summary/index.ts"
